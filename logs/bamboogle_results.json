@@ -1,0 +1,1158 @@
+{
+  "dataset": "bamboogle",
+  "args": {
+    "dataset": "bamboogle",
+    "datasets": null,
+    "data_path": null,
+    "corpus": null,
+    "retriever_url": "http://10.136.201.128:8001",
+    "vllm_url": "http://localhost:8010",
+    "k": 3,
+    "max_hits": 15,
+    "m": 5,
+    "seed": 1399,
+    "m_drafter": "Qwen3-32B",
+    "m_verifier": "Qwen3-32B",
+    "limit": 0,
+    "verbose": false,
+    "output": null,
+    "combined_output": "logs/combined_results.json"
+  },
+  "summary": {
+    "total": 125,
+    "successful": 125,
+    "em": 0.328,
+    "f1": 0.4085,
+    "precision": 0.4297,
+    "recall": 0.4079,
+    "accuracy": 0.336,
+    "count": 125
+  },
+  "results": [
+    {
+      "question_id": "bamboogle_1",
+      "question": "Who was president of the United States in the year that Citibank was founded?",
+      "prediction": "James Madison",
+      "ground_truth": [
+        "james madison"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_2",
+      "question": "What rocket was the first spacecraft that ever approached Uranus launched on?",
+      "prediction": "Titan-Centaur",
+      "ground_truth": [
+        "Titan IIIE"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_3",
+      "question": "In what year was the company that was founded as Sound of Music added to the S&P 500?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "1999"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_4",
+      "question": "Who was the first African American mayor of the most populous city in the United States?",
+      "prediction": "David Dinkins",
+      "ground_truth": [
+        "David Dinkins"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_5",
+      "question": "When did the last king from Britain's House of Hanover die?",
+      "prediction": "1830",
+      "ground_truth": [
+        "20 June 1837"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_6",
+      "question": "When did the president who set the precedent of a two term limit enter office?",
+      "prediction": "1789",
+      "ground_truth": [
+        "April 30, 1789"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_7",
+      "question": "When did the president who set the precedent of a two term limit leave office?",
+      "prediction": "1797",
+      "ground_truth": [
+        "March 4, 1797"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_8",
+      "question": "How many people died in the second most powerful earthquake ever recorded?",
+      "prediction": "at least 800",
+      "ground_truth": [
+        "131"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_9",
+      "question": "Can people who have celiac eat camel meat?",
+      "prediction": "Yes",
+      "ground_truth": [
+        "Yes"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_10",
+      "question": "What was the final book written by the author of On the Origin of Species?",
+      "prediction": "The Formation of Vegetable Mould through the Action of Worms, with Observations on their Habits",
+      "ground_truth": [
+        "The Formation of Vegetable Mould Through the Action of Worms"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_11",
+      "question": "When was the company that built the first steam locomotive to carry passengers on a public rail line founded?",
+      "prediction": "1823",
+      "ground_truth": [
+        "1823"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_12",
+      "question": "Which Theranos whistleblower is not related to a senior American government official?",
+      "prediction": "No specific Theranos whistleblower is mentioned in the evidence.",
+      "ground_truth": [
+        "Erika Cheung"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_13",
+      "question": "What is the fastest air-breathing manned aircraft mostly made out of?",
+      "prediction": "The information is not provided in the given evidence.",
+      "ground_truth": [
+        "Titanium"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_14",
+      "question": "Who built the fastest air-breathing manned aircraft?",
+      "prediction": "Lockheed",
+      "ground_truth": [
+        "Lockheed Corporation"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_15",
+      "question": "When was the author of The Population Bomb born?",
+      "prediction": "May 29, 1932",
+      "ground_truth": [
+        "May 29, 1932"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_16",
+      "question": "When did the author of Annabel Lee enlist in the army?",
+      "prediction": "Not specified in the evidence",
+      "ground_truth": [
+        "1827"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_17",
+      "question": "What was the religion of the inventor of the Polio vaccine?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "Jewish"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_18",
+      "question": "Who was the second wife of the founder of CNN?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "Jane Shirley Smith"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_19",
+      "question": "When did the first prime minister of the Russian Empire come into office?",
+      "prediction": "The evidence does not provide the exact date.",
+      "ground_truth": [
+        "November 6, 1905"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_20",
+      "question": "What is the primary male hormone derived from?",
+      "prediction": "testes",
+      "ground_truth": [
+        "cholesterol"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_21",
+      "question": "The Filipino statesman who established the government-in-exile during the outbreak of World War II was also the mayor of what city?",
+      "prediction": "Manila",
+      "ground_truth": [
+        "Quezon City"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_22",
+      "question": "Where was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+      "prediction": "Germany",
+      "ground_truth": [
+        "Oranienburg, Germany"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_23",
+      "question": "When was the person who shared the Nobel Prize in Physics in 1954 with Max Born born?",
+      "prediction": "8 January 1891",
+      "ground_truth": [
+        "January 8, 1891"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_24",
+      "question": "What was the founding date of the university in which Plotonium was discovered?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "March 23, 1868"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_25",
+      "question": "The material out of which the Great Sphinx of Giza is made of is mainly composed of what mineral?",
+      "prediction": "limestone",
+      "ground_truth": [
+        "calcite"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_26",
+      "question": "The husband of Lady Godiva was Earl of which Anglic kingdom?",
+      "prediction": "Mercia",
+      "ground_truth": [
+        "Mercia"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_27",
+      "question": "The machine used to extract honey from honeycombs uses which physical force?",
+      "prediction": "centrifugal force",
+      "ground_truth": [
+        "Centrifugal Force"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_28",
+      "question": "What is the third letter of the top level domain of the military?",
+      "prediction": "l",
+      "ground_truth": [
+        "l"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_29",
+      "question": "In what year was the government department where the internet originated at founded?",
+      "prediction": "1947",
+      "ground_truth": [
+        "1947"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_30",
+      "question": "The main actor of Indiana Jones is a licensed what?",
+      "prediction": "unknown",
+      "ground_truth": [
+        "pilot"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_31",
+      "question": "When was the person after which the Hubble Space Telescope is named after born?",
+      "prediction": "1889",
+      "ground_truth": [
+        "November 20, 1889"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_32",
+      "question": "When did the person who gave the Checkers speech die?",
+      "prediction": "April 22, 1994",
+      "ground_truth": [
+        "April 22, 1994"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_33",
+      "question": "When was the philosopher that formulated the hard problem of consciousness born?",
+      "prediction": "April 20, 1966",
+      "ground_truth": [
+        "April 20, 1966"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_34",
+      "question": "What is the capital of the second largest state in the US by area?",
+      "prediction": "Austin",
+      "ground_truth": [
+        "Austin"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_35",
+      "question": "What is the maximum airspeed (in km/h) of the third fastest bird?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "320 km/h"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_36",
+      "question": "Who founded the city where the founder of geometry lived?",
+      "prediction": "{\n    \"rationale\": \"The founder of geometry is Euclid, who lived in Alexandria. The founder of the city of Alexandria was Alexander the Great.\",\n    \"response\": \"Alexander the Great\"",
+      "ground_truth": [
+        "Alexander the Great"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_37",
+      "question": "What is the capital of the country where yoga originated?",
+      "prediction": "New Delhi",
+      "ground_truth": [
+        "New Delhi"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_38",
+      "question": "The fourth largest city in Germany was originally called what?",
+      "prediction": "Thorn",
+      "ground_truth": [
+        "Colonia Claudia Ara Agrippinensium"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_39",
+      "question": "When did Nirvana's second most selling studio album come out?",
+      "prediction": "September 24, 1991",
+      "ground_truth": [
+        "September 13, 1993"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_40",
+      "question": "What was the job of the father of the founder of psychoanalysis?",
+      "prediction": "wool merchant",
+      "ground_truth": [
+        "wool merchant"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_41",
+      "question": "How much protein in four boiled egg yolks?",
+      "prediction": "11.2 g",
+      "ground_truth": [
+        "10.8"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_42",
+      "question": "What is the political party of the American president who entered into the Paris agreement?",
+      "prediction": "Democratic Party",
+      "ground_truth": [
+        "Democratic Party"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_43",
+      "question": "The most populous city in Punjab is how large (area wise)?",
+      "prediction": "Not available in the provided evidence",
+      "ground_truth": [
+        "310 square kilometers"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_44",
+      "question": "What was the death toll of the second largest volcanic eruption in the 20th century?",
+      "prediction": "more than 23,000",
+      "ground_truth": [
+        "847"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_45",
+      "question": "What was the death toll of the most intense Atlantic hurricane?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "52"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_46",
+      "question": "Who was the head of NASA during Apollo 11?",
+      "prediction": "Thomas O. Paine",
+      "ground_truth": [
+        "Thomas O. Paine"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_47",
+      "question": "Who is the father of the father of George Washington?",
+      "prediction": "Lawrence Washington",
+      "ground_truth": [
+        "Lawrence Washington"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_48",
+      "question": "Who is the mother of the father of George Washington?",
+      "prediction": "Mildred Warner",
+      "ground_truth": [
+        "Mildred Warner"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_49",
+      "question": "Who is the father of the father of Barack Obama?",
+      "prediction": "The information is not available in the given evidence.",
+      "ground_truth": [
+        "Hussein Onyango Obama"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_50",
+      "question": "Who is the mother of the father of Barack Obama?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "Habiba Akumu Nyanjango"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_51",
+      "question": "Who was mayor of New York City when Fiorello H. La Guardia was born?",
+      "prediction": "Abram S. Hewitt",
+      "ground_truth": [
+        "William Russell Grace"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_52",
+      "question": "Who was president of the U.S. when superconductivity was discovered?",
+      "prediction": "William Howard Taft",
+      "ground_truth": [
+        "William Howard Taft"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_53",
+      "question": "When was the person Russ Hanneman is based on born?",
+      "prediction": "May 9, 1975",
+      "ground_truth": [
+        "July 31, 1958"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_54",
+      "question": "When was the first location of the world's largest coffeehouse chain opened?",
+      "prediction": "March 30, 1971",
+      "ground_truth": [
+        "March 30, 1971"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_55",
+      "question": "Who directed the highest grossing film?",
+      "prediction": "James Cameron",
+      "ground_truth": [
+        "James Cameroon"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_56",
+      "question": "When was the longest bridge in the world opened?",
+      "prediction": "Cannot be determined from the given evidence",
+      "ground_truth": [
+        "30 June 2011"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_57",
+      "question": "Which company was responsible for the largest pharmaceutical settlement?",
+      "prediction": "GlaxoSmithKline",
+      "ground_truth": [
+        "GlaxoSmithKline"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_58",
+      "question": "In what year was the tallest self-supporting tower completed?",
+      "prediction": "1976",
+      "ground_truth": [
+        "2012"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_59",
+      "question": "In what year was the tallest fixed steel structure completed?",
+      "prediction": "1889",
+      "ground_truth": [
+        "1988"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_60",
+      "question": "In what year was the tallest lattice tower completed?",
+      "prediction": "Cannot be determined from the given evidence",
+      "ground_truth": [
+        "2012"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_61",
+      "question": "In what year was the current tallest wooden lattice tower completed?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "1935"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_62",
+      "question": "In what country is the second tallest statue in the world?",
+      "prediction": "China",
+      "ground_truth": [
+        "China"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_63",
+      "question": "When was the tallest ferris wheel in the world completed?",
+      "prediction": "2008",
+      "ground_truth": [
+        "2021"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_64",
+      "question": "In what year was the tallest lighthouse completed?",
+      "prediction": "1861",
+      "ground_truth": [
+        "1902"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_65",
+      "question": "In what country is the world largest desalination plant?",
+      "prediction": "Israel",
+      "ground_truth": [
+        "Saudi Arabia"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_66",
+      "question": "The most populous national capital city was established in what year?",
+      "prediction": "Cannot be determined from the given evidence",
+      "ground_truth": [
+        "1045 BC"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_67",
+      "question": "The third largest river (by discharge) in the world is in what countries?",
+      "prediction": "China",
+      "ground_truth": [
+        "India and Bangladesh"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_68",
+      "question": "What is the highest elevation (in meters) of the second largest island in the world?",
+      "prediction": "4884",
+      "ground_truth": [
+        "4,884 m"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_69",
+      "question": "What is the length of the second deepest river in the world?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "6,300 km"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_70",
+      "question": "In what country is the third largest stadium in the world?",
+      "prediction": "Not enough information",
+      "ground_truth": [
+        "United States"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_71",
+      "question": "Who is the largest aircraft carrier in the world is named after?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "Gerald R. Ford"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_72",
+      "question": "In what year did the oldest cat ever recorded with the Cat of the Year award?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "1999"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_73",
+      "question": "In what year was the country that is the third largest exporter of coffee founded?",
+      "prediction": "Cannot be determined",
+      "ground_truth": [
+        "1810"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_74",
+      "question": "Who was the commander for the space mission that had the first spacewalk?",
+      "prediction": "Gus Grissom",
+      "ground_truth": [
+        "Pavel Belyayev"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_75",
+      "question": "Who is the predecessor of the longest-reigning British monarch?",
+      "prediction": "George VI",
+      "ground_truth": [
+        "George VI\n"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_76",
+      "question": "In 2016, who was the host of the longest running talk show?",
+      "prediction": "Ryan Tubridy",
+      "ground_truth": [
+        "Jimmy Fallon"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_77",
+      "question": "In 2016, who was the host of the longest running American game show?",
+      "prediction": "Alex Trebek",
+      "ground_truth": [
+        "Drew Carey"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_78",
+      "question": "Who wrote the novel on which the longest running show in Broadway history is based on?",
+      "prediction": "Victor Hugo",
+      "ground_truth": [
+        "Gaston Leroux"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_79",
+      "question": "In what country was the only cruise line that flies the American flag incorporated in?",
+      "prediction": "United States",
+      "ground_truth": [
+        "Bermuda"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_80",
+      "question": "In what year did work begin on the second longest road tunnel in the world?",
+      "prediction": "1979",
+      "ground_truth": [
+        "1992"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_81",
+      "question": "What is the official color of the third oldest surviving university?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "Cambridge Blue"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_82",
+      "question": "Who succeeded the longest reigning Roman emperor?",
+      "prediction": "Tiberius",
+      "ground_truth": [
+        "Tiberius"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_83",
+      "question": "Who preceded the Roman emperor that declared war on the sea?",
+      "prediction": "Tiberius",
+      "ground_truth": [
+        "Tiberius"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_84",
+      "question": "Who produced the longest running video game franchise?",
+      "prediction": "Electronic Arts",
+      "ground_truth": [
+        "MECC"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_85",
+      "question": "Who was the father of the father of psychoanalysis?",
+      "prediction": "Rabbi Schlomo Freud",
+      "ground_truth": [
+        "Jacob Freud"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_86",
+      "question": "Who was the father of the father of empiricism?",
+      "prediction": "Sir Nicholas Bacon",
+      "ground_truth": [
+        "Sir Nicholas Bacon"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_87",
+      "question": "Who is the father of the father of observational astronomy?",
+      "prediction": "Vincenzo Galilei",
+      "ground_truth": [
+        "Vincenzo Galilei"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_88",
+      "question": "Who is the father of the father of modern Hebrew?",
+      "prediction": "Cannot be determined from the given information",
+      "ground_truth": [
+        "Yehuda Leib"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_89",
+      "question": "Who is the father of the father of modern experimental psychology?",
+      "prediction": "The information is not available in the provided evidence.",
+      "ground_truth": [
+        "Maximilian Wundt"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_90",
+      "question": "Who is the father of the originator of cybernetics?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "Leo Wiener"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_91",
+      "question": "Who is the father of the father of the hydrogen bomb?",
+      "prediction": "Not available in the given evidence",
+      "ground_truth": [
+        "Max Teller"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_92",
+      "question": "Who was the father of the father of computer science?",
+      "prediction": "Benjamin Herschel Babbage",
+      "ground_truth": [
+        "Julius Mathison Turing"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_93",
+      "question": "Who was the father of the father of behaviorism?",
+      "prediction": "Cannot be determined from the given evidence",
+      "ground_truth": [
+        "Pickens Butler Watson"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_94",
+      "question": "Who was the father of the founder of modern human anatomy?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "Anders van Wesel"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_95",
+      "question": "What was the father of the last surviving Canadian father of Confederation?",
+      "prediction": "Thomas Morgan Tilley",
+      "ground_truth": [
+        "Charles Tupper Sr."
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_96",
+      "question": "When was the person who said \u201cNow, I am become Death, the destroyer of worlds.\u201d born?",
+      "prediction": "April 22, 1904",
+      "ground_truth": [
+        "April 22, 1904"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_97",
+      "question": "Who was the father of the father of information theory?",
+      "prediction": "Cannot be determined from the given evidence",
+      "ground_truth": [
+        "Claude Sr."
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_98",
+      "question": "When was the person who delivered the \"Quit India\" speech born?",
+      "prediction": "2 October 1869",
+      "ground_truth": [
+        "October 2, 1869"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_99",
+      "question": "When did the president who warned about the military industrial complex die?",
+      "prediction": "March 28, 1969",
+      "ground_truth": [
+        "March 28, 1969"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_100",
+      "question": "When did the president who said Tear Down This Wall die?",
+      "prediction": "June 5, 2004",
+      "ground_truth": [
+        "June 5, 2004"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_101",
+      "question": "What is the lowest elevation of the longest railway tunnel?",
+      "prediction": "below sea level",
+      "ground_truth": [
+        "312 m"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_102",
+      "question": "When did the person who said \"Cogito, ergo sum.\" die?",
+      "prediction": "11 February 1650",
+      "ground_truth": [
+        "February 11, 1650"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_103",
+      "question": "When did the person who delivered the Gettysburg Address die?",
+      "prediction": "April 14, 1865",
+      "ground_truth": [
+        "April 15, 1865"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_104",
+      "question": "Who was governor of Florida during Hurricane Irma?",
+      "prediction": "Rick Scott",
+      "ground_truth": [
+        "Rick Scott"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_105",
+      "question": "For which club did the winner of the 2007 Ballon d'Or play for in 2012?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "Real Madrid"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_106",
+      "question": "What's the capital city of the country that was the champion of the 2010 World Cup?",
+      "prediction": "Pretoria",
+      "ground_truth": [
+        "Madrid"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_107",
+      "question": "When was the anime studio that made Sword Art Online founded?",
+      "prediction": "Cannot be determined from the provided evidence.",
+      "ground_truth": [
+        "May 9, 2005"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_108",
+      "question": "Who was the first king of the longest Chinese dynasty?",
+      "prediction": "King Wu of Zhou",
+      "ground_truth": [
+        "King Wu of Zhou"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_109",
+      "question": "Who was the last emperor of the dynasty that succeeded the Song dynasty?",
+      "prediction": "Emperor Shundi",
+      "ground_truth": [
+        "Toghon Tem\u00fcr"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_110",
+      "question": "What's the motto of the oldest California State university?",
+      "prediction": "Information not available in the given evidence",
+      "ground_truth": [
+        "Powering Silicon Valley"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_111",
+      "question": "What's the capital of the state that the College of William & Mary is in?",
+      "prediction": "Richmond",
+      "ground_truth": [
+        "Richmond"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_112",
+      "question": "What's the capital of the state that Washington University in St. Louis is in?",
+      "prediction": "Jefferson City",
+      "ground_truth": [
+        "Jefferson City"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_113",
+      "question": "What's the capital of the state that Harvard University is in?",
+      "prediction": "Boston",
+      "ground_truth": [
+        "Boston"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_114",
+      "question": "What's the capital of the state that the Space Needle is at?",
+      "prediction": "Olympia",
+      "ground_truth": [
+        "Olympia"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_115",
+      "question": "Which team won in women's volleyball in the most recent Summer Olympics that was held in London?",
+      "prediction": "Cannot be determined from the provided evidence",
+      "ground_truth": [
+        "Brazil"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_116",
+      "question": "What is the nickname of the easternmost U.S. state?",
+      "prediction": "Pine Tree State",
+      "ground_truth": [
+        "Pine Tree State"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_117",
+      "question": "What is the nickname for the state that is the home to the \u201cAvocado Capital of the World\"?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "Golden State"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_118",
+      "question": "What rocket was used for the mission that landed the first humans on the moon?",
+      "prediction": "Saturn V",
+      "ground_truth": [
+        "Saturn V"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_119",
+      "question": "When did the war that Neil Armstrong served in end?",
+      "prediction": "1953",
+      "ground_truth": [
+        "July 27, 1953"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_120",
+      "question": "What is the nickname for the state that Mount Rainier is located in?",
+      "prediction": "The Evergreen State",
+      "ground_truth": [
+        "Evergreen State"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_121",
+      "question": "When was the composer of Carol of the Bells born?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "December 13, 1877"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_122",
+      "question": "Who is the father of the scientist at MIT that won the Queen Elizabeth Prize for Engineering in 2013?",
+      "prediction": "Unknown",
+      "ground_truth": [
+        "Conway Berners-Lee"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_123",
+      "question": "Who was the mother of the emperor of Japan during World War I?",
+      "prediction": "Nagako",
+      "ground_truth": [
+        "Yanagiwara Naruko"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_124",
+      "question": "Which element has an atomic number that is double that of hydrogen?",
+      "prediction": "helium",
+      "ground_truth": [
+        "Helium"
+      ],
+      "success": true
+    },
+    {
+      "question_id": "bamboogle_125",
+      "question": "What was the motto of the Olympics that had Fuwa as the mascots?",
+      "prediction": "One World, One Dream",
+      "ground_truth": [
+        "One World, One Dream"
+      ],
+      "success": true
+    }
+  ]
+}

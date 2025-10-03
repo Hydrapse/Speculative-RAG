@@ -1,0 +1,103 @@
+================================================================================
+VERBOSE EVALUATION: BAMBOOGLE
+================================================================================
+Data: /home/gangda/workspace/Adaptive-RAG/processed_data/bamboogle/test.jsonl
+Corpus: wiki
+Parameters: k=2, m=5, max_hits=15
+Samples: 1
+================================================================================
+
+Loaded 1 samples
+
+
+################################################################################
+# Sample 1/1
+################################################################################
+
+================================================================================
+[bamboogle_1] Question: Who was president of the United States in the year that Citibank was founded?
+Ground Truth: ['james madison']
+================================================================================
+
+[STEP 1] Dense Retrieval...
+  ✓ Retrieved 15 documents
+    [1] Citibank... (score: 0.7345)
+        resulting in a net profit for the U.S. federal government. The City Bank of New York was founded on June 16, 1812. The first president of the City Ban...
+    [2] Citigroup... (score: 0.7060)
+        Brothers in 1910. City Bank of New York was chartered by New York State on June 16, 1812, with $2 million of capital. Serving a group of New York merc...
+    [3] Citibank... (score: 0.7005)
+        James Stillman Rockefeller was elected president and then chairman in 1959, serving until 1967. Stillman was a direct descendant of the Rockefeller fa...
+    [4] Banking in the United States... (score: 0.6924)
+        the U.S., Bank of North America, opened. Soon after U.S. Treasury Secretary Alexander Hamilton created the Bank of the United States (1791), a nationa...
+    [5] Citibank... (score: 0.6905)
+        century. During Taylor's ascendancy, the bank functioned largely as a treasury and finance center for Taylor's own extensive business empire. Later pr...
+
+[STEP 2] Multi-Perspective Sampling (k=2, m=5)...
+  ✓ Created 5 document subsets
+    Subset 1: 2 documents
+    Subset 2: 2 documents
+    Subset 3: 2 documents
+    Subset 4: 2 documents
+    Subset 5: 2 documents
+
+[STEP 3] RAG Drafting (5 drafts in parallel)...
+  ✓ Generated 5 drafts
+
+    Draft 1:
+      Response: The evidence provided does not mention the founding of Citibank or the president of the United States in the year it was founded. Therefore, it is not possible to determine the answer based on the given information.
+      Rationale: The evidence provided does not mention the founding of Citibank or the president of the United States in the year it was founded. Therefore, it is not possible to determine the answer based on the giv...
+      p_draft: 0.904837
+
+    Draft 2:
+      Response: James Madison
+      Rationale: The City Bank of New York, which later became Citibank, was founded on June 16, 1812. According to historical records, the President of the United States in 1812 was James Madison. Alexander Hamilton,...
+      p_draft: 0.904837
+
+    Draft 3:
+      Response: Unknown
+      Rationale: The evidence provided does not mention the founding of Citibank or the year it was founded. Therefore, it is not possible to determine who was president of the United States in the year that Citibank ...
+      p_draft: 0.904837
+
+    Draft 4:
+      Response: Unknown
+      Rationale: The evidence provided does not mention the founding of Citibank or the year it was founded. Therefore, it is not possible to determine who was president of the United States in the year that Citibank ...
+      p_draft: 0.904837
+
+    Draft 5:
+      Response: Unknown
+      Rationale: The evidence provided does not mention the founding of Citibank or the year it was founded. Therefore, it is not possible to determine who was president of the United States in the year that Citibank ...
+      p_draft: 0.904837
+
+[STEP 4] RAG Verification (5 verifications in parallel)...
+  ✓ Completed 5 verifications
+    Verification 1: verdict='No.', p_yes=0.000000
+    Verification 2: verdict='Yes.', p_yes=0.951229
+    Verification 3: verdict='No.', p_yes=0.000000
+    Verification 4: verdict='No.', p_yes=0.000000
+    Verification 5: verdict='No.', p_yes=0.000000
+
+[STEP 5] Selecting Best Draft...
+  Scores (p_draft × p_yes):
+    Draft 1: 0.000000
+    Draft 2: 0.860708 ← SELECTED
+    Draft 3: 0.000000
+    Draft 4: 0.000000
+    Draft 5: 0.000000
+
+[STEP 6] Evaluation...
+  Prediction: James Madison
+  Ground Truth: ['james madison']
+  Normalized Prediction: james madison
+  Normalized GT: ['james madison']
+  EM: 1.00 | F1: 1.0000
+
+>>> Running Average: EM=1.0000, F1=1.0000
+
+================================================================================
+FINAL RESULTS
+================================================================================
+Total: 1
+EM: 1.0000
+F1: 1.0000
+
+Results saved to: bamboogle_verbose_results.json
